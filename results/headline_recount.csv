@@ -1,0 +1,34 @@
+"source","scenario","edge_poly3","best_partition","best_partition_name","best_all6","best_all6_name","detectable","saturated","beats_partition","beats_all6","in_headline_22"
+"sim_power_broad(size-adj)","quad/0.01",0.073,0.134,"HL-equalwidth",0.134,"HL-equalwidth",FALSE,FALSE,FALSE,FALSE,FALSE
+"sim_power_broad(size-adj)","quad/0.02",0.512,0.405,"Pigeon-Heyse",0.407,"Xie",TRUE,FALSE,TRUE,TRUE,TRUE
+"sim_power_broad(size-adj)","quad/0.03",0.839,0.748,"Pigeon-Heyse",0.748,"Pigeon-Heyse",TRUE,FALSE,TRUE,TRUE,TRUE
+"sim_power_broad(size-adj)","quad/0.05",0.991,0.975,"HL",0.975,"HL",TRUE,FALSE,TRUE,TRUE,TRUE
+"sim_power_broad(size-adj)","quad/0.1",1,1,"HL",1,"HL",TRUE,TRUE,TRUE,TRUE,FALSE
+"sim_power_broad(size-adj)","quad/0.2",1,1,"EF",1,"EF",TRUE,TRUE,TRUE,TRUE,FALSE
+"sim_power_broad(size-adj)","quad/0.4",1,1,"EF",1,"EF",TRUE,TRUE,TRUE,TRUE,FALSE
+"sim_power_broad(size-adj)","binint/0.1",0.085,0.063,"HL",0.078,"Tsiatis",FALSE,FALSE,TRUE,TRUE,FALSE
+"sim_power_broad(size-adj)","binint/0.2",0.217,0.135,"HL",0.172,"Xie",TRUE,FALSE,TRUE,TRUE,TRUE
+"sim_power_broad(size-adj)","binint/0.3",0.458,0.279,"HL",0.34,"Xie",TRUE,FALSE,TRUE,TRUE,TRUE
+"sim_power_broad(size-adj)","binint/0.5",0.89,0.728,"HL",0.788,"Xie",TRUE,FALSE,TRUE,TRUE,TRUE
+"sim_power_broad(size-adj)","binint/0.7",0.999,0.99,"HL",0.996,"Xie",TRUE,TRUE,TRUE,TRUE,FALSE
+"sim_power_broad(size-adj)","contint/0.1",0.074,0.066,"HL",0.069,"Xie",FALSE,FALSE,TRUE,TRUE,FALSE
+"sim_power_broad(size-adj)","contint/0.3",0.231,0.13,"HL",0.21,"Xie",TRUE,FALSE,TRUE,TRUE,TRUE
+"sim_power_broad(size-adj)","contint/0.5",0.426,0.252,"HL",0.502,"Xie",TRUE,FALSE,TRUE,FALSE,TRUE
+"sim_power_broad(size-adj)","contint/0.7",0.689,0.511,"Pigeon-Heyse",0.862,"Xie",TRUE,FALSE,TRUE,FALSE,TRUE
+"sim_power_broad(size-adj)","link/probit",0.061,0.101,"HL-equalwidth",0.101,"HL-equalwidth",FALSE,FALSE,FALSE,FALSE,FALSE
+"sim_power_broad(size-adj)","link/cloglog",0.745,0.548,"HL-equalwidth",0.548,"HL-equalwidth",TRUE,FALSE,TRUE,TRUE,TRUE
+"sim_power_broad(size-adj)","link/stukel_heavy",0.723,0.537,"HL",0.567,"Xie",TRUE,FALSE,TRUE,TRUE,TRUE
+"sim_power_broad(size-adj)","link/stukel_light",0.323,0.287,"HL",0.287,"HL",TRUE,FALSE,TRUE,TRUE,TRUE
+"sim_power_broad(size-adj)","link/stukel_asym",0.925,0.821,"HL",0.821,"HL",TRUE,FALSE,TRUE,TRUE,TRUE
+"sim_power_broad(size-adj)","rough/osc2",1,1,"EF",1,"EF",TRUE,TRUE,TRUE,TRUE,FALSE
+"sim_power_broad(size-adj)","rough/osc4",0.525,1,"EF",1,"EF",TRUE,FALSE,FALSE,FALSE,TRUE
+"sim_power_broad(size-adj)","rough/sawtooth",0.108,0.949,"HL",0.956,"Xie",TRUE,FALSE,FALSE,FALSE,TRUE
+"sim_power_broad(size-adj)","rough/bump",0.958,0.885,"HL",0.885,"HL",TRUE,FALSE,TRUE,TRUE,TRUE
+"tab_extra(raw)","omit log x",0.957,0.86,"HLw",0.86,"HLw",TRUE,FALSE,TRUE,TRUE,TRUE
+"tab_extra(raw)","omit x^2 (chi2_4 design)",0.842,0.609,"HL",0.609,"HL",TRUE,FALSE,TRUE,TRUE,TRUE
+"tab_extra(raw)","omit d1*d2",0.982,0.986,"HLw",0.986,"HLw",TRUE,FALSE,TRUE,TRUE,TRUE
+"tab_extra(raw)","omit x1*x2 (rho=.5)",0.999,0.996,"HLw",0.996,"HLw",TRUE,TRUE,TRUE,TRUE,FALSE
+"tab_extra(raw)","omit x^2 & x^3",0.954,0.805,"EF",0.805,"EF",TRUE,FALSE,TRUE,TRUE,TRUE
+"tab_extra(raw)","omit x*d & x*z",0.878,0.906,"HLw",1,"Tsi",TRUE,FALSE,FALSE,FALSE,TRUE
+"tab_extra(raw)","omit d & x*d",0.182,0.116,"HL",0.116,"HL",TRUE,FALSE,TRUE,TRUE,TRUE
+"tab_extra(raw)","omit z1 z2",0.052,0.057,"EF",0.057,"EF",FALSE,FALSE,TRUE,TRUE,FALSE
