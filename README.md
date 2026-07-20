@@ -89,3 +89,7 @@ reads it directly through a `gzfile()` connection — e.g. `read.csv("results/si
 ## License
 
 MIT — see [LICENSE](LICENSE).
+
+## Environment
+
+All benchmarks and simulation grids were run on R 4.4.1 (Windows 11, AMD Ryzen 9 3900X); the exact package versions are frozen in `results/sessionInfo.txt`. Per-grid seed bases are set at the top of each `grid_*.R` script (L'Ecuyer-CMRG streams, invariant to core count).

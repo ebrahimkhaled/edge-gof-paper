@@ -1,0 +1,35 @@
+R version 4.4.1 (2024-06-14 ucrt)
+Platform: x86_64-w64-mingw32/x64
+Running under: Windows 11 x64 (build 26200)
+
+Matrix products: default
+
+
+locale:
+[1] LC_COLLATE=English_United States.utf8 
+[2] LC_CTYPE=English_United States.utf8   
+[3] LC_MONETARY=English_United States.utf8
+[4] LC_NUMERIC=C                          
+[5] LC_TIME=English_United States.utf8    
+
+time zone: Africa/Cairo
+tzcode source: internal
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+[1] ebrahim.gof_2.2.0
+
+loaded via a namespace (and not attached):
+[1] compiler_4.4.1
+
+== Comparator package versions (as installed on the benchmark machine) ==
+ResourceSelection  0.3.6
+rms                6.8.2
+LogisticDx         0.3
+givitiR            1.3
+CompQuadForm       1.4.4
+BAGofT             1.0.0
+mgcv               1.9.4
+callr              3.8.0
