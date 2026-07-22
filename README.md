@@ -69,6 +69,7 @@ except the UMARU IMPACT Study (UIS) data, included as `results/uis_data.rds`:
 | `sim_g_sensitivity.csv` | grouping-sensitivity sweep |
 | `sim_edge_loses.csv` | honest-boundary scenario |
 | `bench_*_summary.csv`, `bench_compute_scaling_fits.csv`, `bench_stukel_failure.csv` | timings + Stukel separation |
+| `proj_power_grid.csv`, `proj_power_grid_pvalues.csv`, `proj_timing.txt` | EDGE-vs-projection power head-to-head (24 cells, §5) + per-rep p-values + projection timing |
 | `uis_gof_reproducible.csv`, `uis_realdata_gof.csv` | UIS vignette |
 | `headline_recount.csv` | 19-of-22 enumeration |
 
@@ -87,6 +88,15 @@ Benchmarks were run on an AMD Ryzen 9 3900X (12 cores), 32 GB RAM, Windows 11, R
 
 **Note:** `results/sim_null_pvalues.csv.gz` is gzip-compressed (≈128 MB uncompressed). `read.csv()`
 reads it directly through a `gzfile()` connection — e.g. `read.csv("results/sim_null_pvalues.csv.gz")`.
+
+## Version
+
+**v1.0.2** — final projection head-to-head grid complete (24/24 cells). Adds
+`results/proj_power_grid.csv` (EDGE-poly3 vs the Escanciano–Liu projection test vs EF and HL
+across all pre-declared scenarios at n = 500 and 1000), its per-replicate p-values
+(`proj_power_grid_pvalues.csv`), and the projection timing (`proj_timing.txt`), feeding the
+new head-to-head subsection of §5. Previous: v1.0.1 (benchmark environment freeze + raw timings),
+v1.0.0 (initial release).
 
 ## License
 
