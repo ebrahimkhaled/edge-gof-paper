@@ -1,5 +1,7 @@
 # Reproduction materials — EDGE goodness-of-fit paper
 
+[![DOI](https://zenodo.org/badge/1292650009.svg)](https://doi.org/10.5281/zenodo.21247541)
+
 Simulation code, results, and figure scripts for:
 
 > **EDGE: A Closed-Form Directed Goodness-of-Fit Test for Sparse Logistic Regression**
